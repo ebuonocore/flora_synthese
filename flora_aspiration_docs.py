@@ -9,7 +9,7 @@ import time
 
 # --- Vos identifiants et URLs ---
 USERNAME = "fl.buonocore"
-PASSWORD = "Ulysse:-1"
+PASSWORD = "***"
 LOGIN_URL = "https://e-learning.crfpa.pre-barreau.com/accounts/login/"
 TARGET_URL = "https://e-learning.crfpa.pre-barreau.com/desk/periods/43/courses/19/detail/"
 
@@ -120,4 +120,5 @@ except Exception as e:
 
 finally:
     driver.quit()
+
     print("Programme terminé.")
